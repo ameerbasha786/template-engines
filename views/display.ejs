@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+<script src='/public/index.js'></script>
+</head>
+
+<body>
+
+    <h1>welcome</h1>
+    <input id="userinput" type='text'>
+    <button id="clickbutton">adduser</button>
+    <ul>
+        <% data.users.forEach((val)=>{%>
+        <li><%=val%></li>
+        <%});%>
+        </ul>
+
+</body>
+
+</html>
